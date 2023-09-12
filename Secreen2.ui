@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>535</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>801</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Roll no</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+color:#000;
+background-color:#c5c5c5;
+border :2px solid rgb(25, 25, 25);
+border-radius: 12px;
+padding-left: 7px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Ahmed</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+color:#000;
+background-color:#c5c5c5;
+border :2px solid rgb(25, 25, 25);
+border-radius: 12px;
+padding-left: 7px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>20-xx-xx</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>20</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgb(98, 98, 98);
+color:#fff;
+border: 2px solid #000;
+border-radius: 8px;
+}
+QPushButton:hover{
+background-color:rgb(255, 255, 255);
+color:#000;
+
+}
+QPushButton:pressed{
+background-color:rgb(31, 31, 31);
+color:#fff;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Add Student</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+color:#000;
+background-color:#c5c5c5;
+border :2px solid rgb(25, 25, 25);
+border-radius: 12px;
+padding-left: 7px;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Bsc</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Diploma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ms</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Semester</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Courses</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>110</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+color:#000;
+background-color:#c5c5c5;
+border :2px solid rgb(25, 25, 25);
+border-radius: 12px;
+padding-left: 7px;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1st</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2nd</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3rd</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4th</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5th</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6th</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7th</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8th</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Attandance</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>40</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+color:#000;
+background-color:#c5c5c5;
+border :1px solid rgb(25, 25, 25);
+border-radius: 12px;
+padding-left: 7px;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>absent</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>present</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>741</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget{
+color:#000;
+background-color:#ccc;
+border :2px solid rgb(25, 25, 25);
+border-radius: 12px;
+padding-left: 7px;
+}</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Roll no</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Courses</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Semester</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Actions</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
